@@ -1,0 +1,48 @@
+
+form {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 50px 0;
+    background-image: linear-gradient(-90deg, floralwhite, azure);
+}
+
+form input {
+    padding: 5px;
+    width: 20%;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    font-family: monospace;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 0px 0px 30px 2px grey;
+}
+
+.flex-around {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    background-color: lightgray;
+    padding: 20px;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+#nasa-images img {
+    max-height: 300px;
+    max-width: 100%;
+    min-height: 200px;
+    margin: 20px;
+}
